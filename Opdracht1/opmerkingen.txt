@@ -1,0 +1,11 @@
+sudo apt-get install libsdl1.2-dev
+
+y = y0
+double d = f(x0 + 1, y0 + 0.5)
+for x = x0 to x1 do
+draw(x, y)
+if (d < 0) then
+y = y + 1
+d = d + (x1 - x0) + (y0 - y1)
+else
+d = d + (y0 - y1)
