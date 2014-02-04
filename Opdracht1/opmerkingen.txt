@@ -9,3 +9,18 @@ y = y + 1
 d = d + (x1 - x0) + (y0 - y1)
 else
 d = d + (y0 - y1)
+
+
+
+helling 
+HELLING = (double)((-1*y1)-(-1*y0))/(double)(x1-x0)
+
+moet x en y met een  postitief of negatief iteratie (bijv voor linksonder/boven
+
+
+MOET DE LIJN GROTER OF KLEINER DAN 0
+    if(HELLING < 0.0) balans=-1; else balans=1;
+    
+doe dingen als slope tussen 0 en 1 is, en als slope tussen 1 en inf is
+
+functie voor f(x,y)
